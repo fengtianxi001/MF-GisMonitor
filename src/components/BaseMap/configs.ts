@@ -12,9 +12,9 @@ export const TileConfigs = {
 }
 
 export const GeoJSONSources = {
-  boundary: '/data/北京市边界.geojson',
-  buildings: '/data/北京市建筑轮廓.geojson',
-  river: '/data/北京市水系水路.geojson',
-  railway: '/data/北京市铁路轨道.geojson',
-  waters: '/data/北京市水域.geojson',
+  boundary: './data/北京市边界.geojson',
+  buildings: './data/北京市建筑轮廓.geojson',
+  river: './data/北京市水系水路.geojson',
+  railway: './data/北京市铁路轨道.geojson',
+  waters: './data/北京市水域.geojson',
 }

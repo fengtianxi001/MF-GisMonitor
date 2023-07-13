@@ -9,7 +9,7 @@ import * as THREE from 'three'
 const { container, scene, controls, loadGLTF } = useThree()
 
 onMounted(() => {
-  loadGLTF('/models/face.glb').then((res) => {
+  loadGLTF('./models/face.glb').then((res) => {
     controls.value!.autoRotate = true
     controls.value!.autoRotateSpeed = 4.0
     const material = new THREE.MeshBasicMaterial({
