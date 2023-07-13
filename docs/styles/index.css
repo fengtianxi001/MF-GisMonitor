@@ -1,0 +1,63 @@
+@font-face {
+  font-family: En;
+  src: url('/fonts/En.woff2');
+}
+
+@font-face {
+  font-family: Cn;
+  src: url('/fonts/Cn.woff2');
+}
+
+@font-face {
+  font-family: Num;
+  src: url('/fonts/Num.woff2');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Cn;
+}
+*::-webkit-scrollbar {
+  width: 0;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+}
+
+.app-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #303133;
+}
+.app-loading-title {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.app-loading-subtitle {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.leaflet-layer {
+  filter: grayscale(100) invert(100);
+}
+
+.leaflet-div-icon {
+  background-color: transparent !important;
+  border: unset !important;
+}
