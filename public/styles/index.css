@@ -1,16 +1,16 @@
 @font-face {
   font-family: En;
-  src: url('./fonts/En.woff2');
+  src: url('../fonts/En.woff2');
 }
 
 @font-face {
   font-family: Cn;
-  src: url('./fonts/Cn.woff2');
+  src: url('../fonts/Cn.woff2');
 }
 
 @font-face {
   font-family: Num;
-  src: url('./fonts/Num.woff2');
+  src: url('../fonts/Num.woff2');
 }
 
 * {
